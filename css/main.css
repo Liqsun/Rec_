@@ -1,5 +1,39 @@
 .main__container {
-  background: url(../img/first.png) center center/cover no-repeat; }
+  background: url(../img/first.png) center center/cover no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.logo-white {
+  width: 151px;
+  height: 43px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -700px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  padding: 15px; }
+
+.friendship {
+  width: 432px;
+  height: 37px;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49.42px;
+  text-align: center;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -422,3 +456,21 @@ img {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url("../fonts/Lato-Bold.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato-Light';
+  src: url("../fonts/Lato-Light.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal; }

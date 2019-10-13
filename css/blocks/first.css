@@ -1,3 +1,36 @@
 .main__container {
-  background: url(../img/first.png) center center/cover no-repeat; 
-height: 100hv;}
+  background: url(../img/first.png) center center/cover no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.logo-white {
+  width: 151px;
+  height: 43px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -700px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  padding: 15px; }
+
+.friendship {
+  font: 100% Latoto;
+  width: 432px;
+  height: 37px;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49.42px;
+  text-align: center;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto; }

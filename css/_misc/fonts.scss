@@ -6,42 +6,39 @@
 }
 
 @font-face {
-	font-family: 'Lato-Bold';
+	font-family: 'Lato';
 	src: url('../fonts/Lato-Bold.ttf') format('ttf');
 	font-weight: normal;
-	font-style: normal;
+	font-style: bold;
 }
 
 @font-face {
-	font-family: 'Lato-Light';
+	font-family: 'Lato';
 	src: url('../fonts/Lato-Light.ttf') format('ttf');
+	font-weight: normal;
+	font-style: 300;
+}
+
+@font-face {
+	font-family: 'Latoto';
+	src: url('../fonts/Latoto-Regular.ttf') format('ttf');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Latoto';
-	src: url('../fonts/Latoto-Regular.ttf') format('ttf');
-	font-weight: 500;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Latoto-Bold';
 	src: url('../fonts/Latoto-Bold.ttf') format('ttf');
 	font-weight: normal;
-	font-style: normal;
+	font-style: bold;
 }
 
 @font-face {
-	font-family: 'Latoto-Light';
+	font-family: 'Latoto';
 	src: url('../fonts/Latoto-Light.ttf') format('ttf');
-	font-weight: normal;
+	font-weight: 300;
 	font-style: normal;
 }
 
-@mixin latoto {
-	font-family: 'latoto';
-}
 
 

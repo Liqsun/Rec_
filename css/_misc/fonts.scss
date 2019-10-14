@@ -21,8 +21,8 @@
 
 @font-face {
 	font-family: 'Latoto';
-	src: url('../fonts/Latoto-Regular.ttf') format('ttf');
-	font-weight: normal;
+	src: url('/fonts/Latoto-Regular.ttf') format('woff');
+	font-weight: 500;
 	font-style: normal;
 }
 
@@ -40,5 +40,8 @@
 	font-style: normal;
 }
 
+@mixin latoto {
+	font-family: 'latoto';
+}
 
 

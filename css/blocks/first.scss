@@ -17,15 +17,15 @@
 }
 
 .friendship {
-font: 100% Latoto;
-width: 432px;
-height: 37px;
-color: #ffffff;
-font-size: 40px;
-font-weight: 700;
-line-height: 49.42px;
-text-align: center;
-white-space: nowrap;
-display: flex;
-margin: 0 auto;
+    @include latoto();
+    width: 432px;
+    height: 37px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.42px;
+    text-align: center;
+    white-space: nowrap;
+    display: flex;
+    margin: 0 auto;
 }

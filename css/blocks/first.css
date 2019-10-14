@@ -9,28 +9,62 @@
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-  flex-direction: column; }
+  flex-direction: column;
+  margin: 0 auto; }
 
 .logo-white {
-  width: 151px;
-  height: 43px;
+  width: rem(151px);
+  height: rem(43px);
   text-align: center;
   margin: 0 auto;
-  margin-top: -700px;
+  margin-top: rem(-20px);
   border-bottom: 2px solid rgba(255, 255, 255, 0.5);
-  padding: 15px; }
+  padding: rem(15px); }
 
 .friendship {
   font-family: 'latoto';
-  width: 432px;
+  width: rem(432px);
   height: 37px;
   color: #ffffff;
-  font-size: 40px;
+  font-size: rem(40px);
   font-weight: 700;
-  line-height: 49.42px;
+  line-height: rem(49.42px);
+  text-align: center;
+  white-space: nowrap;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: rem(365px); }
+
+.friendship__desc {
+  font-family: 'latoto';
+  color: #ffffff;
+  font-size: rem(20px);
+  font-weight: 400;
   text-align: center;
   white-space: nowrap;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: rem(-20px);
+  padding-bottom: rem(35px);
+  padding-top: rem(20px); }
+
+.tech {
+  text-align: center;
+  width: rem(170px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: rem(-35px);
+  padding-top: 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5); }
+
+.friendship__desc-bold {
+  font-size: rem(24px);
+  font-weight: 800;
+  line-height: rem(36px); }

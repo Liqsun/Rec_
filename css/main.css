@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'Latoto';
-  src: url("/fonts/Latoto-Regular.ttf") format("woff");
+  src: url("../fonts/Latoto-Regular.ttf") format("ttf");
   font-weight: 500;
   font-style: normal; }
 

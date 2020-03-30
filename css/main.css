@@ -940,10 +940,53 @@ img {
 
 .lady__laptop {
   width: 50.125rem;
-  height: 47.6875rem; }
+  height: 47.6875rem;
+  position: relative;
+  margin-left: -9.375rem; }
+
+.term__two {
+  width: 3rem;
+  height: 4.75rem;
+  padding-top: 9.375rem;
+  margin-left: 6.875rem; }
+
+.howwork-text-second {
+  width: 275px;
+  height: 133px;
+  color: #262525;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px; }
+
+.howwork__desc-text-second {
+  width: 338px;
+  height: 52px;
+  color: #000000;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px; }
 
 .second-term {
-  background-color: white; }
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
+.right__term-second {
+  margin-left: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
 
 .trird-term {
   background-color: white; }

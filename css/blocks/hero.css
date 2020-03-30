@@ -1,0 +1,88 @@
+.hero__container {
+  background: url(../img/fivebg.png) center center/cover no-repeat; }
+
+.hero__line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+
+.hero__100k, .hero__75k, .hero__50k, .hero__25k {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.hero__price {
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 72.36px;
+  font-family: 'latoto-bold';
+  font-weight: 700;
+  color: white;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.hero-img {
+  padding-bottom: rem(36px);
+  margin: 0 auto; }
+
+.hero__desc {
+  margin: 0 auto;
+  color: white;
+  font-family: 'latoto';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.8; }
+
+.hero__title {
+  width: 479px;
+  height: 37px;
+  color: #ffffff;
+  font-family: 'latoto';
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  top: 100px;
+  margin: 0 auto;
+  padding-bottom: 30px; }
+
+.hero__tech {
+  text-align: center;
+  width: rem(170px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5); }
+
+.hero__title-desc {
+  font-family: 'latoto';
+  width: 503px;
+  height: 52px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: rem(120px);
+  padding-top: rem(20px); }

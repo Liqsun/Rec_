@@ -1,7 +1,7 @@
 .mail__container {
     display: flex;
-    flex-direction: row;
     min-height: 650px;
+    flex-direction: row;
 }
 
 .right {
@@ -12,15 +12,14 @@
 }
 
 .rules__title {
-color: #ffffff;
-font-family: 'Latoto';
-font-size: 40px;
-font-weight: 700;
-line-height: 48px;
-margin-top: 150px;
-margin-left: 60px;
+    color: #ffffff;
+    font-family: 'Latoto';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top: 150px;
+    margin-left: 60px;
 }
-
 
 .left {
     width: 60%;
@@ -44,14 +43,13 @@ margin-left: 60px;
 }
 
 .rule-text {
-color: #ffffff;
-font-family: 'latoto';
-font-size: 20px;
-font-weight: 400;
-line-height: 30px;
-width: 400px;
-margin-left: 13px;
-
+    color: #ffffff;
+    font-family: 'latoto';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 400px;
+    margin-left: 50px;
 }
 
 .rule-icon {
@@ -68,11 +66,11 @@ margin-left: 13px;
 }
 
 .cta {
-color: #262525;
-font-family: 'latoto';
-font-size: 40px;
-font-weight: 700;
-line-height: 62.39px;
-padding-left: 100px;
-padding-top: 35px;
+    color: #262525;
+    font-family: 'latoto';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 62.39px;
+    padding-left: 100px;
+    padding-top: 35px;
 }

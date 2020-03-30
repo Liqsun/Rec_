@@ -1,36 +1,36 @@
 @font-face {
   font-family: 'Lato';
-  src: url("./fonts/Lato-Regular.ttf") format("ttf");
+  src: url("../fonts/Lato-Regular.ttf") format("ttf");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Lato';
-  src: url("./fonts/Lato-Bold.ttf") format("ttf");
+  src: url("../fonts/Lato-Bold.ttf") format("ttf");
   font-weight: normal;
   font-style: bold; }
 
 @font-face {
   font-family: 'Lato';
-  src: url("./fonts/Lato-Light.ttf") format("ttf");
+  src: url("../fonts/Lato-Light.ttf") format("ttf");
   font-weight: normal;
   font-style: 300; }
 
 @font-face {
   font-family: 'Latoto';
-  src: url("./fonts/Latoto-Regular.ttf") format("ttf");
+  src: url("../fonts/Latoto-Regular.ttf") format("ttf");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Latoto-bold';
-  src: url("./fonts/Latoto-Bold.ttf") format("ttf");
+  src: url("../fonts/Latoto-Bold.ttf") format("ttf");
   font-weight: normal;
   font-style: bold; }
 
 @font-face {
   font-family: 'Latoto';
-  src: url("./fonts/Latoto-Light.ttf") format("ttf");
+  src: url("../fonts/Latoto-Light.ttf") format("ttf");
   font-weight: 300;
   font-style: normal; }
 
@@ -647,11 +647,11 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: 650px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
-  flex-direction: row;
-  min-height: 650px; }
+  flex-direction: row; }
 
 .right {
   background-color: #4aa9f8;
@@ -850,5 +850,100 @@ img {
   outline: none;
   resize: none; }
 
-.slider__container {
-  background: url(../img/second.png) center center/cover no-repeat; }
+.terms__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-height: 650px; }
+
+.right__term {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.left__term {
+  padding-right: 18.125rem; }
+
+.first-term {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
+.term__one {
+  width: 3rem;
+  height: 4.75rem;
+  padding-top: 9.375rem;
+  margin-left: 6.875rem; }
+
+.terms__link {
+  padding-top: 9.375rem; }
+
+.logo__terms {
+  margin: 0 auto;
+  position: absolute;
+  padding-top: 4.5625rem;
+  margin-left: -7.25rem; }
+
+.first-red {
+  position: absolute;
+  padding-top: 15.125rem;
+  margin-left: -15.625rem; }
+
+.first-blue {
+  position: absolute;
+  z-index: -1;
+  margin-left: -6.25rem;
+  padding-top: 3.125rem; }
+
+.first-green {
+  position: absolute;
+  padding-top: 48.4375rem; }
+
+.letter__boy {
+  width: 36.25rem;
+  height: 46.5625rem;
+  padding-top: 5.625rem; }
+
+.howwork-text {
+  width: 275px;
+  height: 133px;
+  color: #262525;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px; }
+
+.howwork {
+  padding-top: 1.875rem;
+  padding-right: 13.0625rem; }
+
+.howwork__desc-text {
+  width: 338px;
+  height: 48px;
+  color: #000000;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; }
+
+.lady__laptop {
+  width: 50.125rem;
+  height: 47.6875rem; }
+
+.second-term {
+  background-color: white; }
+
+.trird-term {
+  background-color: white; }

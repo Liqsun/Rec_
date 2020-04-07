@@ -23,6 +23,8 @@
 
 .left {
     width: 60%;
+    display: flex;
+    flex-direction: column;
 }
 
 .rule {
@@ -62,7 +64,9 @@
 
 .logo {
     padding-left: 50px;
-    padding-top: 80px;
+    padding-top: rem(77px);
+    width: 151px;
+    height: 43px;
 }
 
 .cta {
@@ -72,5 +76,5 @@
     font-weight: 700;
     line-height: 62.39px;
     padding-left: 100px;
-    padding-top: 35px;
+    padding-top: rem(25px);
 }

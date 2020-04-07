@@ -7,12 +7,14 @@
 .right__term {
     display: flex;
     flex-direction: column;
+    padding-left: rem(150px);
     //width: 40%;
 }
 
 .left__term {
     //width: 60%;
-    padding-right: rem(290px);
+    //padding-right: rem(290px);
+    margin-left: rem(150px);
 }
 
 .first-term {
@@ -23,7 +25,7 @@
 .term__one {
     width: rem(48px);
     height: rem(76px);
-    padding-top: rem(150px);
+    padding-top: rem(100px);
     margin-left: rem(110px);
 }
 
@@ -54,34 +56,71 @@
 .first-green {
     position: absolute;
     padding-top: rem(775px);
+    margin-left: rem(-100px);
 }
 
 .letter__boy {
     width: rem(580px);
     height: rem(745px);
     padding-top: rem(90px);
+    z-index: 100;
+    position: relative;
+    transform: scale(0.9);
+}
+
+.letter {
+    width: rem(178px);
+    height: rem(121px);
+    transform: scale(0.9);
+    position: absolute;
+    padding-top: rem(720px);
+    margin-left: rem(-600px);
+    z-index: 101;
+}
+
+.second__letter {
+    width: rem(178px);
+    height: rem(121px);
+    transform: scale(0.9);
+    position: absolute;
+    padding-top: rem(840px);
+    margin-left: rem(-200px);
+    z-index: 101;
 }
 
 .howwork-text {
     width: 275px;
     height: 133px;
     color: #262525;
-    font-family: Lato;
+    font-family: 'latoto';
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
 }
 
 .howwork {
-    padding-top: rem(30px);
     padding-right: rem(209px);
+}
+
+.avito__link {
+    margin-bottom: -90px;
+    margin-top: 50px;
+    margin-left: 90px;
+    width: 108px;
+    height: 15px;
+    color: #ff6163;
+    font-family: 'latoto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none
 }
 
 .howwork__desc-text {
     width: 338px;
     height: 48px;
     color: #000000;
-    font-family: Lato;
+    font-family: 'latoto';
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -91,13 +130,18 @@
     width: rem(802px);
     height: rem(763px);
     position: relative;
-    margin-left: rem(-150px);
+    transform: scale(0.9);
+}
+
+.left__term-second {
+    padding-left: 10px;
+    width: 60%;
 }
 
 .term__two {
     width: rem(48px);
     height: rem(76px);
-    padding-top: rem(150px);
+    padding-top: rem(100px);
     margin-left: rem(110px);
 }
 
@@ -105,7 +149,7 @@
     width: 275px;
     height: 133px;
     color: #262525;
-    font-family: Lato;
+    font-family: 'latoto';
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
@@ -115,7 +159,7 @@
     width: 338px;
     height: 52px;
     color: #000000;
-    font-family: Lato;
+    font-family: 'latoto';
     font-size: 18px;
     font-weight: 400;
     line-height: 34px;
@@ -134,6 +178,94 @@
     //width: 40%;
 }
 
-.trird-term {
+.third-term {
     background-color: white;
+}
+
+.left__term-third {
+    padding-left: 10px;
+    width: 60%;
+}
+
+.term__three {
+    width: rem(48px);
+    height: rem(76px);
+    padding-top: rem(100px);
+    margin-left: rem(110px);
+}
+
+.howwork-text-third {
+    width: 275px;
+    height: 133px;
+    color: #262525;
+    font-family: 'latoto';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.howwork__desc-text-third {
+    width: 338px;
+    height: 52px;
+    color: #000000;
+    font-family: 'latoto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.third-term {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.right__term-third {
+    margin-left: rem(192px);
+    display: flex;
+    flex-direction: column;
+    //width: 40%;
+}
+
+.cash {
+    width: rem(583px);
+    height: rem(538px);
+    position: relative;
+    transform: scale(0.9);
+    margin-bottom: -700px;
+}
+
+.second-blue,
+.second-red,
+.second-purple,
+.third-purple,
+.third-green {
+    position: absolute;
+    z-index: 101;
+}
+
+.second-blue {
+    padding-top: 200px;
+    margin-left: -900px;
+}
+
+.second-red {
+    padding-top: 750px;
+    margin-left: -250px;
+}
+
+.second-purple {
+    padding-top: 400px;
+    margin-left: -100px;
+    transform: scale(0.9);
+}
+
+.third-green {
+    transform: scale(0.9);
+    padding-top: rem(520px);
+}
+
+.third-purple {
+    padding-top: rem(200px);
+    margin-left: rem(-800px);
 }

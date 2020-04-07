@@ -18,10 +18,19 @@
 
 .header__link {
     margin: 0 auto;
-    margin-top: 50px;;
+    margin-top: 50px;
+    ;
 }
 
 .footer__rec-btn {
     margin-top: 50px;
     margin-right: 445px;
+    //display: flex;  
+    width: 330px;
+    height: 70px;
+}
+
+.footer__link {
+    display: flex;
+    position: relative;
 }
